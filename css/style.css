@@ -59,6 +59,12 @@
     .frequent-wrapper{
         grid-template-columns: repeat(2,1fr);
     } 
+    .learning-path-wrapper{
+        display:grid;
+        grid-template-columns: repeat(1,1fr)!important;
+        grid-gap:20px;
+         padding: 20px;
+     }
 }
 @media screen and (max-width: 778px) {
     .frequent-wrapper{
@@ -66,7 +72,7 @@
     } 
     .learning-path-wrapper{
         display:grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr)!important;
         grid-gap:20px;
          padding: 20px;
      }
