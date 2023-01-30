@@ -103,4 +103,15 @@ a:hover{
 .learning-path-image{
     width:100%;
 }
- 
+section#learning-path .link a {
+    font-size: 20px;
+    border: 4px dashed #ffc107;
+    padding: 10px;
+    border-radius: 50px;
+}
+section#learning-path .link {
+    background: #ffffff;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
