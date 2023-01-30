@@ -1,0 +1,91 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+/* .header-title:before {
+    content: "Ahmed";
+    position: absolute;
+    top: 45px;
+    right: 120px;
+    color: #337ab7;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.header-title:after {
+    content: "Ruman";
+    position: absolute;
+    top: 40px;
+    right: 210px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 991px){
+    .header-title:before {
+        right: 120px;
+    }
+    .header-title:after {
+        right: 210px;
+    }
+} */
+
+.header-title{
+    background: cadetblue;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+.footer-title {
+    background: cadetblue;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 0px;
+    height: 320px;
+}
+ul.dev_info {
+    text-align: start;
+    margin-left: 30px;
+    list-style: upper-roman;
+    font-size: 16px;
+    line-height: 30px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 12px 8px;
+    font-size: 16px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    background: lavender;
+    margin-bottom: 8px;
+}
+.nav>li.active_link>a {
+    color: white;
+}
+.nav>li.active_link {
+    background: teal;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ff000000;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.jumbotron ol ,.jumbotron ul{
+    font-size: 16px;
+    line-height: 23px;
+}

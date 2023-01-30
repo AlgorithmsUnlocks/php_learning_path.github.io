@@ -3,13 +3,13 @@
 
 	<section class="content">
 
-		<aside class="col-sm-3">
+		<aside class="col-xs-3">
 		
 	    	<?php Navigation(); ?>
 			
 		</aside><!--SIDEBAR-->
 
-		<article class="main-content col-sm-9">
+		<article class="main-content col-xs-9">
 
             <div class="jumbotron">
                 <h3 class="text-primary text-center">Welcome To The PHP Learning Path</h3>

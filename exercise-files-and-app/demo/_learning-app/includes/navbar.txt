@@ -1,0 +1,7 @@
+Home => index.php
+Course Overview 01 => course_view.php
+Data Types and More 02 => data_types.php
+Controll Structure 03 => controll_struct.php
+PHP Build in Functions 04 => build_function.php
+How to Use Form Data in PHP 05 => use_form_data.php
+How to Use Database in PHP 06 => use_database.php

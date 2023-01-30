@@ -18,7 +18,7 @@ echo "<ul class='nav'>";
 		if($link  == $activePage) {
 
 
-		echo "<li class='activeLink'><a href='{$link}'>" . $page . "</a></li>";
+		  echo "<li class='activeLink'><a href='{$link}'>" . $page . "</a></li>";
 
 
 		} else {
