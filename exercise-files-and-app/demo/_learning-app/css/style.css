@@ -89,3 +89,8 @@ ul.dev_info {
     font-size: 16px;
     line-height: 23px;
 }
+.test_box {
+    background: midnightblue;
+    padding: 20px;
+    color: cyan;
+}

@@ -11,8 +11,8 @@
         $something = "Hello";
         echo $something;
     echo "<br/>";
-
     ?>
+
     <h1>Hello</h1>
 </body>
 </html>

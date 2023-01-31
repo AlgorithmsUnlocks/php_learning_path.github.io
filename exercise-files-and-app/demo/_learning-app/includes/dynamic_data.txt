@@ -1,0 +1,1 @@
+We can use dynamic data in php. Like → <br> echo "Hello Echo"; $title = "<h1> Hello Title with H1 </h1>"; echo $title $title2 = "Hello Title2 with H1"; <h1> "<?php echo $title; ?>" </h1>

@@ -1,0 +1,3 @@
+First Steps : xampp → htdocs → Create_Project_Name
+Second Steps : The basic syntax of PHP → < ? php  ? >
+Third Steps : PHP can work only on a .php page.

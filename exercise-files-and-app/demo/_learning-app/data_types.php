@@ -6,7 +6,7 @@ include("includes/header.php");
 
 <section class="content">
 
-  <aside class="col-xs-3">
+  <aside class="col-xs-4">
     <?php
     // Hello();
     // Sidebar();
@@ -16,8 +16,17 @@ include("includes/header.php");
    
   </aside>
 
-  <article class="main-content col-xs-9">
-    Main Content
+  <article class="main-content col-xs-8">
+    <div class="jumbotron">
+      <?php
+        variablePHP();
+        mathPHP();
+        arrayPHP();
+        assosArray();
+        test2();
+      ?>
+
+    </div>
   </article>
 
 

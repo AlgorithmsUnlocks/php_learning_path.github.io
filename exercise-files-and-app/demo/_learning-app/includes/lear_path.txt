@@ -1,0 +1,3 @@
+Web Server → : xampp → Cross Platform => Window / Linux / Mac OS. 
+Another web server →  : mamp => Not recommended
+Reference Files → : VS Code (That i Recommended) => Some Important Extension of VS Code,Live Server,Bracket Pair Colorize,PHP Intellisense,Code Runner,Emmets (Link → https://docs.emmet.io/cheat-sheet)

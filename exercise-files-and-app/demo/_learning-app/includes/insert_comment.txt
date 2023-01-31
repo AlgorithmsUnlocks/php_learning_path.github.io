@@ -1,0 +1,3 @@
+PHP Single Line Comments => PHP Multiline Comments
+We can comments single line only => We can comments multiple line 
+Syntax is → // or # => Syntax is → /* */
