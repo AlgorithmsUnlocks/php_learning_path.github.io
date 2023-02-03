@@ -1,0 +1,2 @@
+ It’s a special type of operator in PHP.
+It can work for any conditional logic.

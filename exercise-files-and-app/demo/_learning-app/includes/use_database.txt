@@ -1,0 +1,12 @@
+What is a Database ? Simply a collection of related data in an organized format → like (row.column/table)
+Will we be using MySQL ? Structured Query Language → Open source, Most Popular, Greatye Documentation.
+Example of Table ? <img src="img/tabe.png" class="img-fluid" width="450px" height="200px"/>
+Introduction to PHPmyadmin ? localhost/phpmyadmin
+ Create a Database using PHPmyadmin ? create → delete  
+Create a Table using PHPmyadmin ? create → delete
+Markup for Login Page ? Bootstrap Form → Username/Password
+Received POST data from Check ? Extracting Username & Password
+Connecting to the Database using PHP ? mysqli_connect
+Creating Records into the Database Table with PHP ? send data with variable → send data with function.
+Reading Information in the Database with PHP ? mysqli_fetch_row() → mysqli_fetch_assoc()
+Creating the Update Records Form ? Username/Password/Id

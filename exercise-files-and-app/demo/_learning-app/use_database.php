@@ -18,7 +18,7 @@ include("includes/header.php");
 
   <article class="main-content col-xs-8">
     <div class="jumbotron">
-
+      <?php useDatabase(); ?>
     </div>
   </article>
 

@@ -1,0 +1,2 @@
+Define a function and make it return a calculation of 2 numbers ?
+Make a function that passess parameters and call it using parameter values.

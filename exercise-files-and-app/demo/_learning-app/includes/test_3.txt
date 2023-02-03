@@ -1,0 +1,4 @@
+What is the basic syntax of if statement & while loop & for loop & foreach loop & ternary operator in PHP with example.
+Write a program to calculate the greater number of 3
+Write a program to find 1 to 100 prime numbers ?
+<img src="img/ternary.png"/>

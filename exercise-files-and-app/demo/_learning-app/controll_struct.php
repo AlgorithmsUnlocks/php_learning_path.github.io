@@ -18,7 +18,13 @@ include("includes/header.php");
 
   <article class="main-content col-xs-8">
     <div class="jumbotron">
-
+      <?php ifStatement(); ?>
+      <?php switchStatement(); ?>
+      <?php whileLoop(); ?>
+      <?php forLoop(); ?>
+      <?php foreachLoop(); ?>
+      <?php ternaryOp(); ?>
+      <?php test3(); ?>
     </div>
   </article>
 

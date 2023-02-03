@@ -1,0 +1,1 @@
+Use a pre-built math, string and array function and echo it ?

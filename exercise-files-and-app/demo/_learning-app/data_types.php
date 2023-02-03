@@ -22,7 +22,6 @@ include("includes/header.php");
         variablePHP();
         mathPHP();
         arrayPHP();
-        assosArray();
         test2();
       ?>
 

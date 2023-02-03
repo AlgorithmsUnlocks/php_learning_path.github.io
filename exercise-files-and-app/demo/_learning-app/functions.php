@@ -168,8 +168,10 @@ function test1(){
         echo "<h3 class='text-center'>Test Your Self ⇒ Question in Below</h3>";
         $rows = file("includes/test_1.txt");
         echo "<pre> <code>";
-         foreach($rows as $row){
-            echo "<p>".$row."</p>";
+        $count = 1;
+        foreach($rows as $row){
+            echo "<p> Question ".$count." : ".$row."</p>";
+            $count++;
          }
         echo "</code> </pre>";
         
@@ -181,23 +183,279 @@ function test1(){
 }
 
 
-// Data Types Part 
-
+// Data Types Part Start
+function more(){
+    echo "<p class='text-danger'> <strong> Notes : </strong> echo, printf, sprintf, concate, 
+    number system, data types</p>";
+}
 function variablePHP(){
     echo "<h3>Variable in PHP ⇒ </h3>";
+    $rows = file("includes/variable.txt");
+
+    echo "<p> Rules for declaring Variable : </p><ul>";
+    foreach($rows as $row){
+        echo "<li>".$row."</li>";
+    }
+    echo "</ul>";
+    more();
 }
 function mathPHP(){
-    echo "<h3>Math in PHP ⇒ </h3>";
+    echo "<h3>Math in PHP ⇒ Differents Types of Operator </h3>";
+    $rows = file("includes/math.txt");
+
+    // echo count($rows);
+        echo "<pre><code><table class='table table-bordered'>";
+            echo "<tr>";
+                echo "<td> Operator	</td>";
+                echo "<td> Example </td>";
+            echo "</tr>";
+        foreach($rows as $row){
+            $table = explode("=>", $row);
+            
+            echo "<tr>";
+            for ($i = 0; $i < count($table); $i++){
+                if($table[$i] == $table[1]){
+                    echo "<td><strong>".$table[$i]."</strong></td>";
+                }else{
+                    echo "<td>".$table[$i]."</td>";
+                }
+            }
+            // echo "<td>".$table[0]."</td>";
+            // echo "<td>".$table[1]."</td>";
+            // echo "<td>".$table[2]."</td>";
+            // echo "<td>".$table[3]."</td>";   
+            echo "</tr>";
+        }
+        echo "</table></code></pre>";
 }
+
 function arrayPHP(){
     echo "<h3>Array in PHP ⇒ </h3>";
-}
-function assosArray(){
-    echo "<h3>Associative Array in PHP ⇒ </h3>";
+
+    $rows = file("includes/array.txt");
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        $list = explode(":", $row);
+        echo "<li>".$list[0]."<ul><li>";
+                echo $list[1];
+        echo "</li></ul></li>";
+        // for($i=0; $i< count($list); $i++){
+        //    if($list[$i]==$list[0]){
+        //         echo "<li>".$list[$i]."<ul>";
+        //    }elseif($list[$i]==$list[1]){
+        //       echo "<li>".$list[$i]."</li></ul></li>";
+        //    }
+        // }
+    }
+    echo "</ul>";
 }
 function test2(){
-    echo "<h3 class='text-center'>Test Your Self ⇒ Question in Below</h3>";
+    echo "<div class='test_box'>";
+        
+        echo "<h3 class='text-center'>Test Your Self ⇒ Question in Below</h3>";
+            $rows = file("includes/test_2.txt");
+            echo "<pre> <code>";
+                $count = 1;
+                foreach($rows as $row){
+                    echo "<p> Question ".$count." : ".$row."</p>";
+                    $count++;
+                }
+            echo "</code> </pre>";
+            
+            echo "<div class='answer_box'>";
+
+        echo "</div>";
+
+    echo "</div>";
 }
+
+// Data Types Part end
+
+
+//Controll Structure Part
+
+function ifStatement(){
+    echo "<h3>if Statement in PHP ⇒</h3>";
+    $rows = file("includes/if.txt");
+    // echo $rows;
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        // echo $row[1];
+       echo "<li>".$row."</li>";   
+    }
+    echo "</ul>";
+
+}
+function switchStatement(){
+    echo "<h3>switch Statement in PHP ⇒</h3>";
+    $rows = file("includes/switch.txt");
+    // echo $rows;
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        // echo $row[1];
+       echo "<li>".$row."</li>";   
+    }
+    echo "</ul>";
+}
+function whileLoop(){
+    echo "<h3>while Loop in PHP ⇒</h3>";
+    $rows = file("includes/while.txt");
+    // echo $rows;
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        // echo $row[1];
+       echo "<li>".$row."</li>";   
+    }
+    echo "</ul>";
+}
+function forLoop(){
+    echo "<h3>for Loop in PHP ⇒</h3>";
+    $rows = file("includes/for.txt");
+    // echo $rows;
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        // echo $row[1];
+       echo "<li>".$row."</li>";   
+    }
+    echo "</ul>";
+}
+function foreachLoop(){
+    echo "<h3>foreach Loop in PHP ⇒</h3>";
+    $rows = file("includes/foreach.txt");
+    // echo $rows;
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        // echo $row[1];
+       echo "<li>".$row."</li>";   
+    }
+    echo "</ul>";
+}
+function ternaryOp(){
+    echo "<h3>Ternary Operator in PHP ⇒</h3>";
+    $rows = file("includes/ternary.txt");
+    // echo $rows;
+    // print_r($rows);
+    echo "<ul>";
+    foreach($rows as $row){
+        // echo $row[1];
+       echo "<li>".$row."</li>";   
+    }
+    echo "</ul>";
+}
+function test3(){
+    echo "<div class='test_box'>";
+        
+        echo "<h3 class='text-center'>Test Your Self ⇒ Question in Below</h3>";
+            $rows = file("includes/test_3.txt");
+            echo "<pre> <code>";
+                $count = 1;
+                foreach($rows as $row){
+                    echo "<p> Question ".$count." : ".$row."</p>";
+                    $count++;
+                }
+            echo "</code> </pre>";
+            
+            echo "<div class='answer_box'>";
+
+        echo "</div>";
+
+    echo "</div>";
+}
+
+//Controll Structure  end
+
+
+function test4(){
+    echo "<div class='test_box'>";
+        
+        echo "<h3 class='text-center'>Test Your Self ⇒ Question in Below</h3>";
+            $rows = file("includes/test_4.txt");
+            echo "<pre> <code>";
+                $count = 1;
+                foreach($rows as $row){
+                    echo "<p> Question ".$count." : ".$row."</p>";
+                    $count++;
+                }
+            echo "</code> </pre>";
+            
+            echo "<div class='answer_box'>";
+
+        echo "</div>";
+
+    echo "</div>";
+}
+
+// Build in Fnction 
+function buildFun(){
+    echo "<h3>PHP Build in Function ⇒ </h3>";
+    $rows = file("includes/build_fun.txt");
+    // print_r($rows);
+    echo "<ol>";
+    foreach($rows as $row){
+        echo "<li>".$row."</li>";
+    }
+    echo "</ol>";
+}
+
+function test5(){
+    echo "<div class='test_box'>";
+        
+        echo "<h3 class='text-center'>Test Your Self ⇒ Question in Below</h3>";
+            $rows = file("includes/test_5.txt");
+            echo "<pre> <code>";
+                $count = 1;
+                foreach($rows as $row){
+                    echo "<p> Question ".$count." : ".$row."</p>";
+                    $count++;
+                }
+            echo "</code> </pre>";
+            
+            echo "<div class='answer_box'>";
+
+        echo "</div>";
+
+    echo "</div>";
+}
+
+//Use form data in PHP
+
+function useFormData(){
+    echo "<h3>How to Use Form Data in PHP ⇒ </h3>";
+    $rows = file("includes/use_form_data.txt");
+    echo "<ol>";
+    foreach($rows as $row){
+        echo "<li>".$row."</li>";
+    }
+    echo "</ol>";
+}
+
+// Use Database in PHP
+
+function useDatabase(){
+    echo "<h3>How to Use Database in PHP ⇒ </h3>";
+    $rows = file("includes/use_database.txt");
+    echo "<ol>";
+    foreach($rows as $row){
+        $list = explode("?", $row);
+        for($i=0; $i < count($list); $i++){
+           if($list[$i] == $list[0]){
+                echo "<li>".$list[$i]."<ul>";
+           }else{
+                echo "<li>".$list[$i]."</li>";
+                echo "</ul></li>";
+           }
+        }
+    }
+    echo "</ol>";
+}
+
+
 
 
 ?>

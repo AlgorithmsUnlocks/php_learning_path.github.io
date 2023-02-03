@@ -1,4 +1,4 @@
-Home => index.php
+PHP Fundamental => index.php
 Course Overview  => course_view.php
 Data Types and More  => data_types.php
 Controll Structure  => controll_struct.php

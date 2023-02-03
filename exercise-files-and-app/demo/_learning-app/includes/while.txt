@@ -1,0 +1,2 @@
+The while loop executes a block of code repeatedly until the condition is FALSE. Once the condition gets FALSE, it exits from the body of the loop.
+Example → simple programs, alphabet printing, nested while loop, infinite while loop. 

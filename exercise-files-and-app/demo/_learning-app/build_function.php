@@ -18,7 +18,8 @@ include("includes/header.php");
 
   <article class="main-content col-xs-8">
     <div class="jumbotron">
-
+       <?php buildFun(); ?>
+       <?php test5(); ?>
     </div>
   </article>
 

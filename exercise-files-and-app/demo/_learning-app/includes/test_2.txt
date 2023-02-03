@@ -1,0 +1,6 @@
+How can we define a regular array ?
+What is the right way of defining the variable ?
+How can we define an associative array and assign a value to it ?
+How can we insert the multiline comments in PHP ?
+Write some advantages of PHP Array?
+Write a program that will Convert the decimal number to octal, binary and hexadecimal format ?

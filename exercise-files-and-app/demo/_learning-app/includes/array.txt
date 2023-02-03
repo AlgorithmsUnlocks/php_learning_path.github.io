@@ -1,0 +1,6 @@
+Array : It is used to hold multiple values of similar type in a single variable.
+Advantage of PHP Array : Less Code, Easy to traverse, Sorting
+Types of array in PHP : Indexed Array, Associative Array, Multidimensional Array
+Indexed Array : PHP index is represented by number which starts from 0. We can store number, string and object in the PHP array. All PHP array elements are assigned to an index number by default.
+Associative Array : We can associate name with each array elements in PHP using => symbol.
+Multidimensional Array : PHP multidimensional array is also known as array of arrays. It allows you to store tabular data in an array. PHP multidimensional array can be represented in the form of matrix which is represented by row * column.

@@ -1,0 +1,7 @@
+There are 3 Types of Built in Function in PHP → Math Function ➕ String Function ➕ Array Function.
+Math Function ⇒ pow, rand, sqrt, ceil, floor, round 
+Documents → php.net/manual/en/ref.math.php
+String Function ⇒ strlen, strtoupper, strtolower
+Documents → php.net/ref.string.php
+Array Function ⇒ max,min,sort
+Documents → php.net/manual/en/ref.array.php

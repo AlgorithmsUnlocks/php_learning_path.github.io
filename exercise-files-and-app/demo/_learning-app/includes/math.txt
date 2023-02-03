@@ -1,0 +1,8 @@
+Arithmetic Operator => + , - , * , / , % , **
+Assignment Operator => = , += , *= , -= , /= , %=
+Bitwise Operator => $ , | , ^(x-or) , ~(not) , <<(shift left) , >>(shift right)
+Comparison Operator => == , != , ===(identical) , !== , <>(not equal) , < , > , <= , >= , < = >(spaceship)\
+Incremental and Decremental Operator => ++ , --
+Logical Operator => AND , && , OR , || , !
+String Operator => . , .=
+Array Operator => + , == , != , === , !== , <>(not equal)

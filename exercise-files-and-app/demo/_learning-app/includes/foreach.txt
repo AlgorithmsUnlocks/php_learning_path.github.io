@@ -1,0 +1,3 @@
+The foreach loop is used to traverse the array elements. It works only on arrays and objects.
+The foreach loop works on element basis rather than index. It provides an easiest way to iterate the elements of an array.
+In the foreach loop, we don't need to increment the value.

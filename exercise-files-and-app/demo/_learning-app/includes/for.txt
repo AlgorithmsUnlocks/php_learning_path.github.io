@@ -1,0 +1,4 @@
+For Loops has 3 parameter →
+initialization - Initialize the loop counter value. The initial value of the for loop is done only once. This parameter is optional.
+condition - Evaluate each iteration value. The loop continuously executes until the condition is false. If TRUE, the loop execution continues, otherwise the execution of the loop ends.
+Increment/decrement - It increments or decrements the value of the variable.
